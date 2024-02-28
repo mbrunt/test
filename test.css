@@ -1,0 +1,38 @@
+.odometer {
+    font-size: 170px;
+    color: white
+}
+
+.odometer .odometer-inside:before {
+    content: "$"
+}
+
+.odometer .odometer-inside {
+    justify-content: right;
+}
+
+.background {
+    background-image: url("unnamed.png");
+    background-size: cover;
+    /* Cover the entire area; use 'contain' to fit the whole image */
+    background-position: center;
+    width: 994px;
+    /* Adjust based on your needs */
+    height: 272px;
+    /* Adjust based on your needs */
+    display: flex;
+    /* Use flexbox to center content (optional) */
+    justify-content: right;
+    /* Center horizontally in flex container (optional) */
+    align-items: center;
+    /* Center vertically in flex container (optional) */
+    border-radius: 10px;
+    /* Optional: adds rounded corners */
+    padding: 10px;
+    padding-top: 40px;
+    padding-right: 108px;
+    /* Optional: adds some padding inside the container */
+    /* Optional: adds some padding inside the container */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
